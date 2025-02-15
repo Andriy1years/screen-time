@@ -34,7 +34,7 @@
         const row = document.createElement('tr');
         const appTime = data[date][app];
         totalDayTime += appTime;
-        if (appTime >= 60) {
+        if (appTime >= 120) {
         row.innerHTML = `<td>${app}</td><td>${formatTime(appTime)}</td>`;
         tableBody.appendChild(row);
         }
