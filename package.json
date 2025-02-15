@@ -1,7 +1,13 @@
 {
+  "scripts": {
+    "start": "concurrently \"node index.js\" \"mouse.py\""
+  },
   "dependencies": {
     "active-win": "^8.2.1",
     "auto-launch": "^5.0.6",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
